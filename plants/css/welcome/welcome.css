@@ -1,11 +1,11 @@
 .welcome {
-  padding: 62px 0 62.64px;
+  padding: 62px 0 48px;
   background-color: var(--bg-main);
 }
 
 .welcome__content {
   display: flex;
-  gap: 224.2px;
+  gap: 212px;
 }
 
 .welcome__content-aside {

@@ -1,0 +1,101 @@
+.prices {
+  padding: 38px 0 115px;
+  background-color: var(--color-light);
+}
+
+.prices__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices__content-main-header {
+  margin-bottom: 60px;
+  color: var(--text-secondary);
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48.41px;
+}
+
+.prices__content-main-order {
+  padding: 33px 40px;
+  border: 1px solid var(--border-main);
+  border-radius: 20px;
+}
+
+.prices__content-main-order-item {
+  margin-bottom: 29px;
+  padding: 16px 40px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: var(--bg-main);
+  border-radius: 20px;
+}
+
+.prices__content-main-order-item:hover {
+  cursor: pointer;
+}
+
+.prices__content-main-order-item-last {
+  margin-bottom: 0;
+}
+
+.prices__content-main-order-item-text {
+  color: var(--text-secondary);
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.prices__content-main-order-item-element {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+  border-radius: 50%;
+}
+
+.prices__content-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.prices__content-aside-text {
+  margin-bottom: 38px;
+  color: var(--text-secondary);
+  text-align: right;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.prices__content-aside-text-colored {
+  color: var(--color-primary);
+}
+
+.prices__content-aside-button {
+  margin-bottom: 39px;
+  padding: 11px 31px;
+  border: 1px solid var(--color-accent);
+  border-radius: 5px;
+  background-color: inherit;
+  transition: all 0.5s;
+  color: var(--color-accent);
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26.06px;
+}
+
+.prices__content-aside-button:hover{
+  background-color: var(--color-accent);
+  color: var(--color-light);
+}
