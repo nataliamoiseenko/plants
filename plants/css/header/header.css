@@ -1,5 +1,5 @@
 .header {
-  background-color: #EDF2EC;
+  background-color: var(--bg-main);
   font-family: 'Inika';
   font-weight: 400;
   font-size: 16px;
@@ -19,7 +19,7 @@
 
 .header__content-logo-text {
   line-height: 21px;
-  color: #000000;
+  color: var(--text-secondary);
 }
 
 .header__content-logo-img {
@@ -40,13 +40,13 @@
 }
 
 .header__content-navigation-list-link {
-  color: #010201;
+  transition: all 0.5s;
+  color: var(--text-main);
 }
 
 .header__content-navigation-list-link:hover {
   font-weight: 700;
-  color: #E06733;
-  transition: all 0.5s;
+  color: var(--color-accent);
 }
 
 

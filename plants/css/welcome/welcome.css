@@ -1,6 +1,6 @@
 .welcome {
   padding: 62px 0 62.64px;
-  background-color: #EDF2EC;
+  background-color: var(--bg-main);
 }
 
 .welcome__content {
@@ -14,7 +14,7 @@
 
 .welcome__content-aside-header {
   margin-bottom: 42px;
-  color: #717171;
+  color: var(--grey-dark);
   font-family: 'Inter';
   font-weight: 700;
   font-size: 45px;
@@ -22,12 +22,12 @@
 }
 
 .welcome__content-aside-header-colored {
-  color: #499A18;
+  color: var(--color-primary);
 }
 
 .welcome__content-aside-text {
   margin-bottom: 48px;
-  color: #636060;
+  color: var(--grey-dark);
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
@@ -36,10 +36,11 @@
 
 .welcome__content-aside-button {
   padding: 11px 25px;
-  border: 2px solid #E06733;
+  border: 2px solid var(--color-accent);
   border-radius: 10px;
   background-color: inherit;
-  color: #000000;
+  transition: all 0.5s;
+  color: var(--text-secondary);
   font-family: 'Inter';
   font-weight: 400;
   font-size: 16px;
@@ -47,7 +48,6 @@
 }
 
 .welcome__content-aside-button:hover {
-  background-color: #E06733;
-  color: #FFFFFF;
-  transition: all 0.5s;
+  background-color: var(--color-accent);
+  color: var(--color-light);
 }

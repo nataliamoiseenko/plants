@@ -1,5 +1,7 @@
+@import url(vars.css);
 @import url(fonts/fonts.css);
 @import url(global/global.css);
 @import url(header/header.css);
 @import url(welcome/welcome.css);
 @import url(about/about.css);
+@import url(service/service.css);

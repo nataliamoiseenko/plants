@@ -1,6 +1,6 @@
 .about {
   padding: 93px 0 94px;
-  background-color: #FFFFFF;
+  background-color: var(--color-light);
 }
 
 .about__content {
@@ -14,7 +14,7 @@
 
 .about__content-aside-header {
   margin-bottom: 40px;
-  color: #499A18;
+  color: var(--color-primary);
   font-family: 'Inika';
   font-weight: 400;
   font-size: 40px;
@@ -22,11 +22,11 @@
 }
 
 .about__content-aside-header-colored {
-  color: #E06733;
+  color: var(--color-accent);
 }
 
 .about__content-aside-text {
-  color: #636060;
+  color: var(--grey-dark);
   font-family: 'Inter';
   font-weight: 400;
   font-size: 20px;
