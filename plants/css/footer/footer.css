@@ -1,0 +1,32 @@
+.footer {
+  padding: 40px 0;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__content-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__content-center {
+  padding-left: 22px;
+}
+
+.footer__content-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.footer__text {
+  color: var(--text-secondary);
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
