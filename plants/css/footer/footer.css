@@ -30,3 +30,11 @@
   font-size: 20px;
   line-height: 50px;
 }
+
+.footer__content-right-item {
+  transition: 0.5s;
+}
+
+.footer__content-right-item:hover {
+  transform: scale(1.2);
+}
