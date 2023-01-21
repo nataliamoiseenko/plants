@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/svg/logo_vector.svg">
   <title>Plants</title>
-  <script src="js/index.js"></script>
 </head>
 <body>
   <header class="header">
@@ -46,6 +45,42 @@
             </li>
           </ul>
         </nav>
+        <div class="header__burger-menu">
+          <input id="header__burger-menu-toggle" type="checkbox">
+          <label class="header__burger-menu-button-container" for="header__burger-menu-toggle">
+            <div class="header__burger-menu-button header__burger-menu-button-top"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-top"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-bottom"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-bottom"></div>
+          </label>
+          <ul class="header__burger-menu-list">
+            <li class="header__burger-menu-list-item">
+              <a href="#" class="header__burger-menu-list-link">
+                Home
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#about" class="header__burger-menu-list-link">
+                About us
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#service" class="header__burger-menu-list-link">
+                Service
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#prices" class="header__burger-menu-list-link">
+                Price
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#contacts" class="header__burger-menu-list-link">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -292,5 +327,6 @@
     </div>
   </footer>
 
+  <script src="js/index.js"></script>
 </body>
 </html>
