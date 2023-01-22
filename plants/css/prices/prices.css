@@ -11,7 +11,7 @@
 .prices__content-main-header {
   margin-bottom: 60px;
   color: var(--text-secondary);
-  font-family: 'Inter';
+  font-family: 'Inter-Bold';
   font-weight: 700;
   font-size: 40px;
   line-height: 48.41px;
@@ -45,7 +45,7 @@
 
 .prices__content-main-order-item-text {
   color: var(--text-secondary);
-  font-family: 'Inter';
+  font-family: 'Inter-Bold';
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -71,7 +71,7 @@
   margin-bottom: 38px;
   color: var(--text-secondary);
   text-align: right;
-  font-family: 'Inter';
+  font-family: 'Inter-Bold';
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;

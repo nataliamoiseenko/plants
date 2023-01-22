@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="assets/svg/logo_vector.svg">
   <title>Plants</title>
-  <script src="js/index.js"></script>
 </head>
 <body>
   <header class="header">
@@ -46,6 +45,42 @@
             </li>
           </ul>
         </nav>
+        <div class="header__burger-menu">
+          <input id="header__burger-menu-toggle" type="checkbox">
+          <label class="header__burger-menu-button-container" for="header__burger-menu-toggle">
+            <div class="header__burger-menu-button header__burger-menu-button-top"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-top"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-bottom"></div>
+            <div class="header__burger-menu-button header__burger-menu-button-bottom"></div>
+          </label>
+          <ul class="header__burger-menu-list">
+            <li class="header__burger-menu-list-item">
+              <a href="#" class="header__burger-menu-list-link">
+                Home
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#about" class="header__burger-menu-list-link">
+                About us
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#service" class="header__burger-menu-list-link">
+                Service
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#prices" class="header__burger-menu-list-link">
+                Price
+              </a>
+            </li>
+            <li class="header__burger-menu-list-item">
+              <a href="#contacts" class="header__burger-menu-list-link">
+                Contacts
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -54,7 +89,7 @@
     <section id="welcome" class="welcome">
       <div class="container">
         <div class="welcome__content">
-          <img src="assets/img/leafs.png" alt="leafs">
+          <img class="welcome__image" src="assets/img/leafs.png" alt="leafs">
           <div class="welcome__content-aside">
             <h1 class="welcome__content-aside-header">
               We grow
@@ -90,7 +125,7 @@
               electronic typesetting, remaining essentially unchanged.
             </p>
           </div>
-          <img src="assets/img/houseplant1.png" alt="houseplant1">
+          <img class="about__image" src="assets/img/houseplant1.png" alt="houseplant1">
         </div>
       </div>
     </section>
@@ -223,7 +258,7 @@
             <button class="prices__content-aside-button">
               Contact us
             </button>
-            <img src="assets/img/leafs2.png" alt="leafs2">
+            <img class="prices__image" src="assets/img/leafs2.png" alt="leafs2">
           </div>
         </div>
       </div>
@@ -232,7 +267,7 @@
     <section id="contacts" class="contacts">
       <div class="container">
         <div class="contacts__content">
-          <img src="assets/img/contact_woman1.png" alt="contact_woman1">
+          <img class="contacts__image" src="assets/img/contact_woman1.png" alt="contact_woman1">
           <div class="contacts__content-main">
             <h2 class="contacts__content-main-header">
               Contact us
@@ -292,5 +327,6 @@
     </div>
   </footer>
 
+  <script src="js/index.js"></script>
 </body>
 </html>
