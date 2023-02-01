@@ -137,13 +137,13 @@
             Service and our &nbsp;<br>projects
           </h2>
           <div class="service__content-title-buttons">
-            <button class="service__content-title-button">Gardens </button>
-            <button class="service__content-title-button service__content-title-button-center">Lawn</button>
-            <button class="service__content-title-button">Planting</button>
+            <button id="gardenButton" class="service__content-title-button">Gardens </button>
+            <button id="lawnButton" class="service__content-title-button service__content-title-button-center">Lawn</button>
+            <button id="plantingButton" class="service__content-title-button">Planting</button>
           </div>
         </div>
         <div class="service__content">
-          <div class="service__content-item">
+          <div data-selector="gardenItem" class="service__content-item service__content-item-garden">
             <img class="service__content-item-image" src="assets/img/garden_care.jpg" alt="garden_care">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -154,7 +154,7 @@
               </p>
             </div>
           </div>
-          <div class="service__content-item">
+          <div data-selector="plantingItem" class="service__content-item service__content-item-planting">
             <img class="service__content-item-image" src="assets/img/planting.jpg" alt="planting">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -165,7 +165,7 @@
               </p>
             </div>
           </div>
-          <div class="service__content-item">
+          <div data-selector="lawnItem" class="service__content-item service__content-item-lawn">
             <img class="service__content-item-image" src="assets/img/lawn_care.jpg" alt="lawn_care">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -176,7 +176,7 @@
               </p>
             </div>
           </div>
-          <div class="service__content-item">
+          <div data-selector="plantingItem" class="service__content-item service__content-item-planting">
             <img class="service__content-item-image" src="assets/img/planting2.jpg" alt="planting2">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -187,7 +187,7 @@
               </p>
             </div>
           </div>
-          <div class="service__content-item">
+          <div data-selector="gardenItem" class="service__content-item service__content-item-garden">
             <img class="service__content-item-image" src="assets/img/garden_care2.jpg" alt="garden_care2">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -198,7 +198,7 @@
               </p>
             </div>
           </div>
-          <div class="service__content-item">
+          <div data-selector="plantingItem" class="service__content-item service__content-item-planting">
             <img class="service__content-item-image" src="assets/img/planting3.jpg" alt="planting3">
             <div class="service__content-item-description">
               <h3 class="service__content-header">
@@ -328,5 +328,6 @@
   </footer>
 
   <script src="js/index.js"></script>
+  <script src="js/service.js"></script>
 </body>
 </html>

@@ -40,6 +40,7 @@
   padding: 11px 53px;
 }
 
+.service__content-title-button-active,
 .service__content-title-button:hover {
   background-color: var(--color-accent);
   color: var(--color-light);
@@ -56,6 +57,11 @@
   width: 329px;
   display: flex;
   flex-direction: column;
+  transition: all 0.5s;
+}
+
+.service__content-item-blur {
+  filter: blur(2px);
 }
 
 .service__content-item-image {
