@@ -336,11 +336,42 @@
             </h2>
             <div class="contacts__content-main-block-wrapper">
               <div class="contacts__content-main-block">
-                <div class="contacts__content-main-block-text">
-                  City
+                <div id="contactsButton" class="contacts__content-main-block-button">
+                  <div id="contactsButtonText" class="contacts__content-main-block-text">
+                    City
+                  </div>
+                  <div class="contacts__content-main-block-element">
+                    <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.00003 2.99997L1.00002 1.00008" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+                      <path d="M3 3L5 1" stroke="white" stroke-width="0.5" stroke-linecap="round"/>
+                    </svg>
+                  </div>
                 </div>
-                <div class="contacts__content-main-block-element">
-                  <img src="assets/svg/arrow1.svg" alt="arrow1">
+
+                <ul id="citiesList" class="contacts__content-main-block-list"></ul>
+
+                <div id="contactDetails" class="contacts__details">
+                  <div class="contacts__details-wrapper">
+                    <div class="contacts__details-name">
+                      <span class="contacts__details-name-item">
+                        City:
+                      </span>
+                      <span class="contacts__details-name-item">
+                        Phone:
+                      </span>
+                      <span class="contacts__details-name-item">
+                        Office adress:
+                      </span>
+                    </div>
+                    <div class="contacts__details-info">
+                      <span id="contactsCity" class="contacts__details-info-item"></span>
+                      <span id="contactsPhone" class="contacts__details-info-item"></span>
+                      <span id="contactsAddress" class="contacts__details-info-item"></span>
+                    </div>
+                  </div>
+                  <a id="callUsBtn" class="contacts__button">
+                    Call us
+                  </a>
                 </div>
               </div>
             </div>
@@ -392,5 +423,6 @@
   <script src="js/index.js"></script>
   <script src="js/service.js"></script>
   <script src="js/prices.js"></script>
+  <script src="js/contacts.js"></script>
 </body>
 </html>

@@ -108,6 +108,10 @@
     width: 400px;
     height: auto;
   }
+
+  .contacts__details {
+    top: 70px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -391,6 +395,10 @@
   .contacts__content-main-block {
     width: 350px;
   }
+
+  .contacts__details {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 455px) {
@@ -559,6 +567,10 @@
   .contacts__content-main-block {
     width: 300px;
     padding: 5px 22px 5px 20px;
+  }
+
+  .contacts__details {
+    font-size: 9.8px;
   }
 
   .footer {
